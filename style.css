@@ -1,0 +1,32 @@
+.bodyMain {
+    background: #fefefe;
+    text-align: center;
+    font-family: arial;
+    margin: 100px 200px 100px 200px;
+}
+
+.header {
+    background: rgb(144, 209, 250);
+}
+
+.pageHeader {
+    color: darkslategray;
+}
+
+.navi {
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+.mainBody {
+    background:#f1f1f1;
+    background-blend-mode: lighten;
+}
+
+.sectionHeader {
+    color: #1460AA;
+}
+
+.subSectionHeader {
+    color: lightskyblue
+}
