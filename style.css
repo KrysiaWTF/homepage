@@ -1,32 +1,87 @@
-.bodyMain {
-    background: #fefefe;
-    text-align: center;
+.about {}
+
+.about__header {
+    color: #273F46;
+}
+
+.about__paragraph {}
+
+.article {
     font-family: arial;
-    margin: 100px 200px 100px 200px;
+}
+
+.article__header {
+    color: #273F46
+}
+
+.article__link {
+    color: #4A7C79;
+    text-decoration: none;
+}
+
+.article__navigation {
+    color: #69B1AD;
+    text-decoration: none;
+}
+
+.article__navigation--list {
+list-style-image: url('img/right-arrow-306-886173.png');
+}
+
+.footer {
+    font-family: arial;
+    color: #273F46;
+}
+
+.footer__paragraph {
+    color: #776885;
+}
+
+.footer__link {
+    color: #776885;
+    text-decoration: none;
 }
 
 .header {
-    background: rgb(144, 209, 250);
+    font-family: arial;
+    text-align: center;
+    background: rgb(185, 228, 231);
 }
 
-.pageHeader {
+.header__title {
     color: darkslategray;
 }
 
-.navi {
-    color: dodgerblue;
-    font-size: 20px;
+.header__navigation--link {
+    color: #776885;
+    text-decoration: none;
 }
 
-.mainBody {
-    background:#f1f1f1;
+.main {
     background-blend-mode: lighten;
+    font-family: arial;
 }
 
-.sectionHeader {
-    color: #1460AA;
+.meme {
+    text-align: center
 }
 
-.subSectionHeader {
+.post {}
+
+.post__header {
     color: lightskyblue
 }
+
+.post__paragraph {}
+
+.post__paragraph--link {
+    color: #776885;
+}
+
+.section {}
+
+.section__header {
+    color: #273F46;
+}
+
+.section__paragraph {}

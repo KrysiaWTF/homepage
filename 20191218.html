@@ -11,30 +11,35 @@
 
 <body class="bodyMain">
 
-	<header class="header">
-		<h1 class="pageHeader">Krystyna Janik | Moja Nauka Frontendu <br /></h1>
-		<nav class="navi">
-			<a href="index.html">Home <b> | </b></a>
-			<a href="wpisyPamiętniczka.html">Wpisy z Pamiętniczka</a>
+	<header id="top" class="header">
+		<h1 class="header__title">
+			Krystyna Janik | Moja Nauka Frontendu
+		</h1>
+		<nav class="header__navigation">
+			<a class="header__navigation--link" href="index.html">Home</a> <b> | </b>
+			<a class="header__navigation--link" href="wpisyPamiętniczka.html">Wpisy z Pamiętniczka</a>
 		</nav>
 	</header>
 
-	<main class="mainBody">
+	<main class="main">
 		<article class="article">
-			<h2 class="sectionHeader">Wpis z Pamiętniczka - 18 Grudnia 2019</h2>
-			<p class="paragraph">Po zatruciu był czas na ciasteczka dla rodziny Michała. Dzisiaj w końcu powrót do nauki!</p>
-			<p class="paragraph">Dobrze by było skończyć dzisiaj chociaż połowę pracy domowej z ubiegłego tygodnia, część mogę zostawić na
+			<h2 class="article__header">Wpis z Pamiętniczka - 18 Grudnia 2019</h2>
+			<p class="article__paragraph">Po zatruciu był czas na ciasteczka dla rodziny Michała. Dzisiaj w końcu powrót do nauki!</p>
+			<p class="article__paragraph">Dobrze by było skończyć dzisiaj chociaż połowę pracy domowej z ubiegłego tygodnia, część mogę zostawić na
 				jutro.</p>
-			<p class="paragraph">A wieczorem do kina! Premiera Star Wars: The Rise of Skywalker!!</p>
+			<p class="article__paragraph">A wieczorem do kina! Premiera Star Wars: The Rise of Skywalker!!</p>
 		</article>
-		<h3 class="subSectionHeader">Meme of the day</h3>
-		<img src="img/order66.png" alt="Mem na dziś" />
+		<h3 class="post__header">Meme of the day</h3>
+		<img  class="meme" src="img/order66.png" alt="Mem na dziś" />
 	</main>
 
 	<footer class="footer">
-		<p class="footerParagraph">Strona Krystyny Janik | Created 06.12.2019</p>
+		<p class="footer__paragraph">Strona Krystyny Janik | Created 06.12.2019</p>
+		<a class="footer__link" href="#top"> Na górę</a>
 	</footer>
+	
+	<script src="main.js"> </script>
 
-</body class="bodyMain">
+</body>
 
 </html>
