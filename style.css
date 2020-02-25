@@ -1,7 +1,11 @@
-.about {}
+.about {
+    position: relative;
+    margin: 32px 0 0 0;
+}
 
 .about__header {
     color: #273F46;
+    margin: 10px 10px 0px 10px;
 }
 
 .about__paragraph {}
@@ -11,7 +15,7 @@
 }
 
 .article__header {
-    color: #273F46
+    color: #273F46;
 }
 
 .article__link {
@@ -25,7 +29,7 @@
 }
 
 .article__navigation--list {
-list-style-image: url('img/right-arrow-306-886173.png');
+    list-style-image: url('img/right-arrow-306-886173.png');
 }
 
 .footer {
@@ -35,44 +39,73 @@ list-style-image: url('img/right-arrow-306-886173.png');
 
 .footer__paragraph {
     color: #776885;
+    bottom: 10px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    margin: 300px 0 10px 10px;
 }
 
 .footer__link {
     color: #776885;
     text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
 
 .header {
+    background: #fefefe;
     font-family: arial;
     text-align: center;
-    background: rgb(185, 228, 231);
+    height: 140px;
+    position: sticky;
+    top: 0px;
+    max-width: 100%;
+    min-width: 400px;
+    margin: 0 0 32px 0;
+    z-index: 9;
 }
 
 .header__title {
+    background: #E5F3F3;
     color: darkslategray;
+    padding: 20px 10PX;
 }
 
 .header__navigation--link {
-    color: #776885;
+    color: #2A4494;
     text-decoration: none;
+    padding: 10px 10PX;
+    background: rgba(185, 228, 231, 0.75);
+    border-radius: 10px;
 }
 
 .main {
     background-blend-mode: lighten;
     font-family: arial;
+    padding: 5px 10px;
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 400px;
 }
 
 .meme {
-    text-align: center
+    text-align: center;
+    max-width: 400px;
+    min-width: 400px;
 }
 
 .post {}
 
 .post__header {
-    color: lightskyblue
+    color: lightskyblue;
+    margin-top: 24px;
 }
 
-.post__paragraph {}
+.post__paragraph {
+    margin: 5px 0 0 10px;
+}
 
 .post__paragraph--link {
     color: #776885;
@@ -82,6 +115,11 @@ list-style-image: url('img/right-arrow-306-886173.png');
 
 .section__header {
     color: #273F46;
+    margin: 64px 10px 0px 10px;
 }
 
-.section__paragraph {}
+.section__subtitle {
+    font-size: 16px;
+    color: rgba(39, 63, 70, 0.604);
+    margin: 5px 0px 0px 10px;
+}
